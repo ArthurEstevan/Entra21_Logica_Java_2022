@@ -1,6 +1,6 @@
 # APRRENDENDO SOBRE VARIAVEIS
 
-## Tipos
+## Tipos de Variaveis Primitivas
 
 - byte
 - short
@@ -10,3 +10,7 @@
 - float
 - double
 - boolean
+
+## Variaves não Primitivas Aprendidas
+
+- String
