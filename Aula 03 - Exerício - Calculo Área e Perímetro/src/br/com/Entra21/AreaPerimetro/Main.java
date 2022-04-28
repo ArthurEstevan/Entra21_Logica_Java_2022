@@ -11,18 +11,15 @@ public class Main {
 
 		System.out.println();
 
-		System.out.println(
-				"Faça um programa que solicite a base e altura de um retângulo e informe sua área e perimetro.\r\n"
-						+ "Sabendo que a área é calculada com base no produto entre base e altura.\r\n"
-						+ "O perímetro é obtido ao somar todos os vertices do retângulo.");
+		System.out.println("Faça um programa que solicite a base e altura de um retângulo, informe também sua área e perimetro.");
+		System.out.println("Sabendo que a formula da área é A=b*h, já a formula do perímetro é P=2(a+b).");
 
 		System.out.println();
 
 		// CRIAR VARIAVEIS
 		float base, altura, area, perimetro; // CRIAR PRATICA DE BOAS NOMECLATURAS.
 
-		// OBJETO DA CLASSE 'Scanner' PRECISA UTIÇOZAR O '(System.in)' PARA TER ACESSO
-		// AO TECLADO.
+		// OBJETO DA CLASSE 'Scanner' PRECISA UTILIZAR O '(System.in)' PARA TER ACESSO AO TECLADO.
 		Scanner inPut = new Scanner(System.in); // CRIAR CLASSE SCANNER PARA DIGITAÇÃO DE INFORMAÇÕES NO CONSOLE.
 		// 'new Scanner' SIGNIFICA CONSTRUA UM OBJETO DA CLASSE 'Scanner' E ATRIBUA NA
 		// VARIAVEL ENTRADA.
@@ -43,7 +40,8 @@ public class Main {
 
 		perimetro = base * 2 + altura * 2; // PERÍMETRO É A MEDIDA EM 1D.
 
-		System.out.println("O resultado da área é '" + area + "', o resultado do perímetro é '" + perimetro + "'.");
+		System.out.println("O resultado da área é " + area + ".");
+		System.out.println("O resultado do perímetro é " + perimetro + ".");
 
 	}
 
