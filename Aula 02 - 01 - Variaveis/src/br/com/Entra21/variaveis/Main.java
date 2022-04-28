@@ -8,7 +8,6 @@ import javax.swing.JOptionPane;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		//VARIAVEIS PRIMITIVAS
 		short ano = 2022;
@@ -34,42 +33,44 @@ public class Main {
 
 		// --------------------------------------//
 
+		  //USANDO CLASSE SCANNER
 		
 		  String nome; byte idade; float minhaAltura, salario;
 		  
-		  Scanner inPut = Scanner(System.in);
+		  Scanner inPut = new Scanner(System.in);
 		  
-		  System.out.println("Por favor qual seu nome?"); nome = inPut.nextLine();  //Usando inPut.nextline consegue escrever nomes composto
+		  System.out.println("Qual seu nome?"); nome = inPut.nextLine();  //Usando inPut.nextline consegue escrever nomes composto
+		  
+		  System.out.println();
 		  
 		  System.out.println("Qual é sua idade?"); idade = inPut.nextByte(); 
 		  
+		  System.out.println();
+		  
 		  System.out.println("Qual altura?"); minhaAltura = inPut.nextFloat();
 		  
-		  System.out.println("Qual é seu sálario"); salario = inPut.nextFloat();
+		  System.out.println();
 		  
-		  System.out.println("Bem vindo " + nome +
-		  " agora posso usar seus dados para cadastro");
+		  System.out.println("Qual é seu sálario?"); salario = inPut.nextFloat();
 		  
+		  System.out.println();
 		  
-		 nome=JOptionPane.showInputDialog("informe novamente seu nome completo"); //Usado para criar uma caixa de diálogo
+		  System.out.println("Bem vindo " + nome + " agora posso usar seus dados para cadastro");
 		  
-		  JOptionPane.showMessageDialog(null, "legal agora eu aprendi seu nome" +nome); 
+		  //USO DO JOptionPane
 		  
-		  idade = Byte.parseByte(JOptionPane.showInputDialog("Sua idaide?"));
+		  /*nome=JOptionPane.showInputDialog("informe seu nome novamente:"); //Usado para criar uma caixa de diálogo
 		  
-		  JOptionPane.showMessageDialog(null, "legal agora eu sei qual é sua "+idade);
+		  JOptionPane.showMessageDialog(null, "Legal agora eu aprendi seu nome." + nome); 
 		  
-		  salario = Float.parseFloat(JOptionPane.showInputDialog("Qual seu salario?"));
+		  idade = Byte.parseByte(JOptionPane.showInputDialog("Informe sua idade novamente:"));
 		  
-		 JOptionPane.showMessageDialog(null,
-		  "legal agora eu seu qual é seu salario "+salario);
+		  JOptionPane.showMessageDialog(null, "Legal agora aprendi sua idade." + idade);
+		  
+		  salario = Float.parseFloat(JOptionPane.showInputDialog("Informe seu sálario novamente:"));
+		  
+		  JOptionPane.showMessageDialog(null, "Legal agora eu aprendi seu sálario." + salario);*/
 		 
-
-	}
-
-	private static Scanner Scanner(InputStream in) {
-		// TODO Auto-generated method stub
-		return null;
 	}
 
 }
