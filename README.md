@@ -7,7 +7,7 @@ Conteúdo prático realizado em sala durante o projeto Entra21.
 
 | AULA | ASSUNTO |
 |------|---------|
-|Aula 02 - 01|[Variáveis](./Aula02%20-%2001%20-%20Variaveis/)
+|Aula 02 - 01|[Variáveis](./Aula%2002%20-%2001%20-%20Variaveis/)
 |Aula 02 - 02|[Constantes](./Aula02%20-%2002%20-%20Constantes/)
 |Aula 03 - 01|[Operadores Aritméticos](./Aula03%20-%2001%20-%20OperadoresAritimeticos/)
 |Aula 03 - 02|[Incremento e Decremento](./Aula03%20-%2002%20-%20IncrementoDecremento/)
