@@ -2,13 +2,18 @@
 
 ### Variaveis Primitivas
 
-```
-- Byte
-- Short
-- Int
-- Long
-- Char
-- Float
-- Double
-- Boolean
-```
+`- Byte`
+
+`- Short`
+
+`- Int`
+
+`- Long`
+
+`- Char`
+
+`- Float`
+
+`- Double`
+
+`- Boolean`
