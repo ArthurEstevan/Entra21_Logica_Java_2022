@@ -1,15 +1,5 @@
-# EXERCÕCIO ¡REA E PERÕMETRO
+# _Exerc√≠cio - √°rea e per√≠metro_
 
-## ExplicaÁ„o do ExercÌcio
-
-- 1∞ Copiar o enunciado do exercÌo;
-
-- 2∞ Definir minhas variaveis (sempre lembrar de colocar "nomeclaturas" explicativas);
-
-- 3∞ Criar a classe "Scanner" (serve para colocar informaÁıes no console);
-
-- 4∞ Definir as perguntas para respostas do console. (Elabore perguntas objetivas);
-
-- 5∞ Elaborar o cÛdigo "AritmÈtico" de acordo com o que o enunciado pede;
-
-- 6∞ Escrever minhas resposta usando minhas "variaveis" da equaÁ„o;
+> Fa√ßa um programa que solicite base e altura de um ret√¢ngulo, informe tamb√©m sua √°rea e perimetro:
+>
+> Sabendo que a f√≥rmula da √°rea √© A=b.h e sabendo que do per√≠metro √© P=2(a+b), fa√ßa o que se pede.
