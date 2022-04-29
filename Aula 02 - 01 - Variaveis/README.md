@@ -1,5 +1,3 @@
-# APRRENDENDO SOBRE VARIAVEIS
-
 ## _Váriaveis / Capacidades_ 
 
 - **Byte** números inteiros (-128 a +127).
