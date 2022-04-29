@@ -1,6 +1,6 @@
 # OPERADORES ARITMÉTICOS
 
-## Tipos de Operação
+## Operações
 
 - (+) operador de adição.
 
