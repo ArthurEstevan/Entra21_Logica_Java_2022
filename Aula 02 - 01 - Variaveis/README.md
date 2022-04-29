@@ -1,6 +1,6 @@
 # APRRENDENDO SOBRE VARIAVEIS
 
-## _Variáveis_ 
+## _Váriaveis / Capacidades_ 
 
 - **Byte** números inteiros (-128 a +127).
 
@@ -17,6 +17,9 @@
 - **Double** número decimais (1.79769313486231570W+308).
 
 - **Boolean** possuem valores True e false.
+
+### Recursos
+A preocupação com economia de recursos deve ser aplicada até na criação correta das variáveis.
 
 #### Como escrever o código:
 
