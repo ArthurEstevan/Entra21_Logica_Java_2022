@@ -1,4 +1,4 @@
-## _Váriaveis / Capacidades_ 
+## _Váriaveis / Propriedades / Capacidades_ 
 
 - **Byte** números inteiros (-128 a +127).
 
@@ -16,7 +16,7 @@
 
 - **Boolean** possuem valores True e false.
 
-### Recursos
+### _Recursos_
 A preocupação com economia de recursos deve ser aplicada até na criação correta das variáveis.
 
 #### Como escrever o código:
