@@ -12,8 +12,3 @@
 - Double
 - Boolean
 ```
-### Variaves não Primitivas
-
-```
-- String
-```
