@@ -1,16 +1,19 @@
-# APRRENDENDO SOBRE VARIAVEIS
+## APRRENDENDO SOBRE VARIAVEIS
 
 ### Variaveis Primitivas
 
-* Byte
-* Short
-* Int
-* Long
-* Char
-* Float
-* Double
-* Boolean
-
+```
+- Byte
+- Short
+- Int
+- Long
+- Char
+- Float
+- Double
+- Boolean
+```
 ### Variaves não Primitivas
 
-* String
+```
+- String
+```
