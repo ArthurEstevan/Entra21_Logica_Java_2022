@@ -1,6 +1,4 @@
-# OPERADORES ARITMÉTICOS
-
-## Operações
+## _Operações Aritméticas_
 
 - (+) operador de adição.
 
@@ -12,7 +10,7 @@
 
 - (%) operador de módulo ou resto da divisão.
 
-#### Como escrever o código:
+#### _Como escrever o código:_
 
 ```
 float numeroA=10, numeroB=10;
