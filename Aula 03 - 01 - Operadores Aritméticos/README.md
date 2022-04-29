@@ -1,15 +1,25 @@
-# OPERADOR ARITM…TICO
+# OPERADORES ARITM√âTICOS
 
-## Tipos de OperaÁ„o
+## Tipos de Opera√ß√£o
 
-- (+) operador de adiÁ„o.
+- (+) operador de adi√ß√£o.
 
-- (-) operador subtraÁ„o.
+- (-) operador subtra√ß√£o.
 
-- (*) operador de multiplicaÁ„o.
+- (*) operador de multiplica√ß√£o.
 
-- (/) operador de divis„o.
+- (/) operador de divis√£o.
 
-- (%) operador de mÛdulo ou resto da divis„o.
+- (%) operador de m√≥dulo ou resto da divis√£o.
 
- Note que no projeto ainda continuamos usando variaveis, comentarios e constantes. Apenas aprendemos mais um modo de incrementar. 
+#### Como escrever o c√≥digo:
+
+```
+float numeroA=10, numeroB=10;
+
+System.out.println("Realizando Opera√ß√µes " + (numeroA + numeroB) );
+System.out.println("Realizando Opera√ß√µes " + (numeroA - numeroB) );
+System.out.println("Realizando Opera√ß√µes " + (numeroA * numeroB) );
+System.out.println("Realizando Opera√ß√µes " + (numeroA / numeroB) );
+```
+[VEJA FUNCIONANDO](https://replit.com/@ArthurEstevan/Operadores-Aritmeticos#Main.java).
