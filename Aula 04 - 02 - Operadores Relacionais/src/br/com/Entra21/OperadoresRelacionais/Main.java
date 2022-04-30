@@ -6,9 +6,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		
 		System.out.println("Operadores Relacionais");
-		
-		System.out.println("Menor < ");
-		System.out.println("Maior >");
+		System.out.println();
 		
 		byte idadeA= 50, idadeB= 50;
 		boolean resultado;

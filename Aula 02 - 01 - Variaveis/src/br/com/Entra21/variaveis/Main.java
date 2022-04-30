@@ -1,15 +1,18 @@
-package br.com.Entra21.variaveis;
+		package br.com.Entra21.variaveis;
 
-import java.io.InputStream;
-import java.util.Scanner;
+		import java.io.InputStream;
+		
+		import java.util.Scanner;
 
-import javax.swing.JOptionPane;
+		import javax.swing.JOptionPane;
 
-public class Main{
+  		public class Main{
 
 		public static void main(String[] args){
+			
 		
 		//VARIAVEIS PRIMITIVAS
+			
 		short ano = 2022;
 
 		short anoPassado = 2021;
@@ -27,18 +30,19 @@ public class Main{
 		boolean intervaloAntesdasoito = false;
 		boolean intervaloAgora = true;
 
+		
 		//VARIAVEL NÃO PRIMITIVA
+		
 		String nomeCompleto = "Arthur Estevan Vargas";
 		
-		// --------------------------------------//
 
-		//USANDO CLASSE SCANNER
+		//CLASE SCANNER
 		
 		String nome; byte idade; float minhaAltura, salario;
 		  
 		Scanner inPut = new Scanner(System.in);
 		  
-		System.out.println("Qual seu nome?"); nome = inPut.nextLine();  //USANDO "inPut.nextline" CONSEGUE ESCREVER NOME COMPOSTO.
+		System.out.println("Qual seu nome?"); nome = inPut.nextLine(); 
 		  
 		System.out.println();
 		  
@@ -55,10 +59,11 @@ public class Main{
 		System.out.println();
 		  
 		System.out.println("Bem vindo " + nome + " agora posso usar seus dados para cadastro");
+
 		  
-		//USO DO JOptionPane
+		//USANDO JOptionPane
 		  
-		/*nome=JOptionPane.showInputDialog("informe seu nome novamente:"); //Usado para criar uma caixa de diálogo
+		/*nome=JOptionPane.showInputDialog("informe seu nome novamente:");
 		  
 		JOptionPane.showMessageDialog(null, "Legal agora eu aprendi seu nome." + nome); 
 		  

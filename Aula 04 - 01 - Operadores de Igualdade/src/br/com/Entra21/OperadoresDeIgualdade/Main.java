@@ -5,18 +5,16 @@ public class Main {
 	public static void main(String[] args) {
 		
 		System.out.println("Operadores de Igualdade");
+		System.out.println();
 		
-		byte idadeA, idadeB;
+		byte idadeA=5, idadeB=10;
 		boolean resultado; 
 		
-		idadeA=5;
-		idadeB=10;
-		
-		resultado = idadeA == idadeB; // == DIZ QUE OS VALORES SÃO IGUAIS
+		resultado = idadeA == idadeB; 
 		
 		System.out.println("Ao comparar a igualdade resultou em "+resultado);
 		
-		resultado = idadeA != idadeB; // != COMPARA OS VALORES ENTRE SI
+		resultado = idadeA != idadeB;
 		
 		System.out.println("Ao comparar a desigualdade resultou em "+resultado);
 		

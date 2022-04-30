@@ -14,20 +14,21 @@ public class Main {
 		
 		Scanner inPut = new Scanner(System.in);
 		
-		System.out.println("Informe o valor do número A");
+		System.out.println("Informe o valor do número A:");
 		numeroA = inPut.nextByte();
+		System.out.println();
 				
-		System.out.println("Informe o valor do número B");
+		System.out.println("Informe o valor do número B:");
 		numeroB = inPut.nextByte();
 		
 		System.out.println();
 		
 		if (numeroA > numeroB) {
-			System.out.println("Número A é maior que B");
+			System.out.println("Número A é maior que B.");
 		}else if(numeroA == numeroB) {
-			System.out.println("São iguai");
+			System.out.println("São iguai.");
 		}else {
-			System.out.println("Número B é maior que A");
+			System.out.println("Número B é maior que A.");
 		}
 		
 		
@@ -44,7 +45,7 @@ public class Main {
 		calculo = (short) (2022-anoNascimento);
 		
 		System.out.println();
-		if (calculo>=15) {
+		if (calculo > 15) {
 			System.out.println("Tem idade pra votar");
 		}else {
 			System.out.println("Não tem idade pra votar");

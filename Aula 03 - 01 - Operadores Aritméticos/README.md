@@ -1,23 +1,23 @@
-## _OperaÃ§Ãµes AritmÃ©ticas_
+## _Operações Aritméticas_
 
-- (+) operador de adiÃ§Ã£o.
+- (+) operador de adição.
 
-- (-) operador subtraÃ§Ã£o.
+- (-) operador subtração.
 
-- (*) operador de multiplicaÃ§Ã£o.
+- (*) operador de multiplicação.
 
-- (/) operador de divisÃ£o.
+- (/) operador de divisão.
 
-- (%) operador de mÃ³dulo ou resto da divisÃ£o.
+- (%) operador de módulo ou resto da divisão.
 
-#### _Como escrever o cÃ³digo:_
+#### _Como escrever o código:_
 
 ```
 float numeroA=10, numeroB=10;
 
-System.out.println("Realizando OperaÃ§Ãµes " + (numeroA + numeroB) );
-System.out.println("Realizando OperaÃ§Ãµes " + (numeroA - numeroB) );
-System.out.println("Realizando OperaÃ§Ãµes " + (numeroA * numeroB) );
-System.out.println("Realizando OperaÃ§Ãµes " + (numeroA / numeroB) );
+System.out.println("Realizando Operações " + (numeroA + numeroB) );
+System.out.println("Realizando Operações " + (numeroA - numeroB) );
+System.out.println("Realizando Operações " + (numeroA * numeroB) );
+System.out.println("Realizando Operações " + (numeroA / numeroB) );
 ```
 [VEJA FUNCIONANDO](https://replit.com/@ArthurEstevan/Operadores-Aritmeticos#Main.java).

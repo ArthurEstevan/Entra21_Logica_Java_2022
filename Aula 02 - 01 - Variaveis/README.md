@@ -1,25 +1,25 @@
-## _VÃ¡riaveis / Propriedades / Capacidades_ 
+## _Váriaveis / Propriedades / Capacidades_ 
 
-- **Byte** nÃºmeros inteiros (-128 a +127).
+- **Byte** números inteiros (-128 a +127).
 
-- **Short** nÃºmeros inteiros (-32768 a +32767).
+- **Short** números inteiros (-32768 a +32767).
 
-- **Int** nÃºmeros inteiros (-2147483648 a + 2147483647).
+- **Int** números inteiros (-2147483648 a + 2147483647).
 
-- **Long** nÃºmeros inteiros (-922337203685477808 a 922337203685477807).
+- **Long** números inteiros (-922337203685477808 a 922337203685477807).
 
-- **Char** caracteres (Apenas um caractere nessas caracterÃ­sticas).
+- **Char** caracteres (Apenas um caractere nessas características).
 
-- **Float** nÃºmero decimais (3.40282347E+38).
+- **Float** número decimais (3.40282347E+38).
 
-- **Double** nÃºmero decimais (1.79769313486231570W+308).
+- **Double** número decimais (1.79769313486231570W+308).
 
 - **Boolean** possuem valores True e false.
 
 ### _Recursos_
-A preocupaÃ§Ã£o com economia de recursos deve ser aplicada atÃ© na criaÃ§Ã£o correta das variÃ¡veis.
+> A preocupação com economia de recursos deve ser aplicada até na criação correta das variáveis.
 
-#### Como escrever o cÃ³digo:
+#### Como escrever o código:
 
 ```
 byte idade = 30;
@@ -31,6 +31,5 @@ float altura = 1.82f;
 double peso = 75.5;
 boolean intervaloAntesdasoito = false;
 boolean intervaloAgora = true;
-
 ```
 [VEJA FUNCIONANDO](https://replit.com/@ArthurEstevan/Variaveis#Main.java).
