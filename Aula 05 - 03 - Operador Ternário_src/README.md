@@ -15,6 +15,5 @@
 ```
 byte idade= 15;
 		
-System.out.println();
 System.out.println("Você é de maior? " + (idade>17? "de maior": "de menor") );
 ```
