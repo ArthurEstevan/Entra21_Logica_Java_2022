@@ -16,12 +16,6 @@
 ```
 byte idade = 18;
 
-		if (idade >= 18) {
-			System.out.println("Maior de Idade");
-		}
-		
-		System.out.println();
-		
 		if( (idade>=13) && (idade<18) ) {
 			System.out.println("é adolescente");
 		}
