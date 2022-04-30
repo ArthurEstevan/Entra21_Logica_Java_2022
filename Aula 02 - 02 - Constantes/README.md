@@ -1,4 +1,4 @@
-## _Variáveis Finais / Costantes_ 
+## _Variáveis Finais / Propriedades / Capacidades_ 
 
 - **Final Byte** números inteiros (-128 a +127).
 
