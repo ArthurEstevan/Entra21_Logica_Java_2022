@@ -14,3 +14,7 @@ Conteúdo prático realizado em sala durante o projeto Entra21.
 |Aula 04 - 01|[Operadores de Igualdade](./Aula%2004%20-%2001%20-%20Operadores%20de%20Igualdade/)
 |Aula 04 - 02|[Operadores Relacionais](./Aula%2004%20-%2002%20-%20Operadores%20Relacionais/)
 |Aula 04 - 03|[Operadores Lógicos](./Aula%2004%20-%2003%20-%20Operadores%20Lógicos/)
+|Aula 05 - 01|[IF](./Aula%2005%20-%2001%20-%20IF/)
+|Aula 05 - 02|[IF_ELSE](./Aula%2005%20-%2002%20-%20IF_ELSE/)
+|Aula 05 - 03|[Operador Ternário_src](./Aula%2005%20-%2003%20-%20Operador%20Ternário_src/)
+|Aula 05 - 04|[ELSE_IF](./Aula%2005%20-%2004%20-%20ELSE_IF/)
