@@ -14,8 +14,6 @@
 
 - **Final Double** número decimais (1.79769313486231570W+308).
 
-- **Final Boolean** possuem valores True e false.
-
 ### _Alterados_
 > No Java quando precisamos lidar com dados que não devem ser alterados durante a execução do programa criamos variáveis finais ou constantes.
 
@@ -29,5 +27,3 @@ final long habitantes1990 = 146825475;
 final char letra = 'R';
 final float altura = 1.82f;
 finaldouble peso = 75.5;
-final boolean intervaloAntesdasoito = false;
-final boolean intervaloAgora = true;
