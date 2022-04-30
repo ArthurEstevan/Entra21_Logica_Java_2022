@@ -1,4 +1,4 @@
-## _Estrutura IF/Else_ 
+## _Estrutura IF_ 
 
 > A estrutura condicional:
 >
