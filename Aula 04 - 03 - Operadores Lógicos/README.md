@@ -16,4 +16,3 @@ resultado = altura>2.0f;
 resultado = (idade <= 18) && (altura >= 2.0f); //true
 resultado = (idade > 19) || (dinheiro >= 1000); //true
 ```
-[VEJA FUNCIONANDO](https://replit.com/@ArthurEstevan/Operadores-Logicos).
