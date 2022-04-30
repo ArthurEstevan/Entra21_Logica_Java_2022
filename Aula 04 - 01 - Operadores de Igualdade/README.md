@@ -1,4 +1,4 @@
-## _Operadores de Igualdade
+## _Operadores de Igualdade_
 
 - (==) utilizado quando desejamos verificar se uma variável é igual a outra.
 
