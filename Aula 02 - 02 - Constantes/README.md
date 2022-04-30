@@ -16,7 +16,7 @@
 
 - **Final Boolean** possuem valores True e false.
 
-### _Recursos_
+### _Alterados_
 > No Java quando precisamos lidar com dados que não devem ser alterados durante a execução do programa criamos variáveis finais ou constantes.
 
 #### Como escrever o código:
