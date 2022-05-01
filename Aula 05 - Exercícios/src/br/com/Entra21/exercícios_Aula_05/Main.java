@@ -51,7 +51,6 @@ public class Main {
 			System.out.println("Não tem idade pra votar");
 		}
 		
-		System.out.println();
 		System.out.println(calculo>=16? "Tem idade pra votar": "Não tem idade pra votar");
 		System.out.println();
 		
@@ -78,6 +77,7 @@ public class Main {
 	    media = notas / semestre;
 	    
 		System.out.println();
+		System.out.println("Sua média: " +media);
 		
 	    if (media > 6f) {
 	    	System.out.println("Aprovado");
@@ -93,13 +93,13 @@ public class Main {
  
 	    System.out.println("Qual sua altura?");
 	    altura = inPut.nextFloat();
-	    	
+	    System.out.println();
 	    System.out.println("Qual seu peso?");
 	    peso = inPut.nextFloat();
 	    
-	    imc = (altura*=2) / peso;
+	    imc = peso / (altura * altura)  ;
 	    
-	    System.out.println("Seu " +imc);
+	    System.out.println("Seu IMC: " +imc);
 	    System.out.println();
 	    
 	    
