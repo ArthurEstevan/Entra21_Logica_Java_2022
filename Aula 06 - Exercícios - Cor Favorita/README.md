@@ -1,13 +1,15 @@
-# _ExercÌcio - estaÁ„o favorita_
+# _Exerc√≠cio - esta√ß√£o favorita_
 
-> Com o mesmo formato do exercÌcio 1 , agora aceite apenas String como resposta
->
->>Qual È a sua cor favorita? 
->
-> - Verde
->
-> - Azul
->
-> - Amarelo
->
-> - Vermelho 
+```
+Com o mesmo formato do exerc√≠cio 1 , agora aceite apenas String como resposta
+
+Qual √© a sua cor favorita? 
+
+- Verde
+
+- Azul
+
+- Amarelo
+
+- Vermelho
+```
