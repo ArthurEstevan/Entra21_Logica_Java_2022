@@ -1,4 +1,4 @@
-# _Exercício - estação favorita_
+# _Exercício - cor favorita_
 
 ```
 Com o mesmo formato do exercício 1 , agora aceite apenas String como resposta
