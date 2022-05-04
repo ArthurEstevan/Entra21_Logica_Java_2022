@@ -1,13 +1,15 @@
-# _ExercÌcio - escolha nula_
+# _Exerc√≠cio - escolha nula_
 
-> Escreva um menu de opÁıes e trate a situaÁ„o onde o usu·rio n„o escolha uma opÁ„o informada na lista.
->
->> What your favorites TV series? 
->
-> - AmericansGODS
->
-> - Supernatural
->
-> - The Big-Bang: Theory
->
-> - Brooklyn 99 
+```
+Escreva um menu de op√ß√µes e trate a situa√ß√£o onde o usu√°rio n√£o escolha uma op√ß√£o informada na lista.
+
+What your favorites TV series? 
+
+- AmericansGODS
+
+- Supernatural
+
+- The Big-Bang: Theory
+
+- Brooklyn 99 
+```
