@@ -1,13 +1,15 @@
-# _ExercÌcio - estaÁ„o favorita_
+# _Exerc√≠cio - esta√ß√£o favorita_
 
-> Exiba em tela uma lista de opÁıes para o usu·rio escolher e para cada escolha retornar uma mensagem diferente.
->
->> Qual È a sua estaÁ„o do ano favorita? 
->
-> - Primavera
->
-> - Outono
->
-> - Inverno
->
-> - Ver„o 
+```
+Exiba em tela uma lista de op√ß√µes para o usu√°rio escolher e para cada escolha retornar uma mensagem diferente.
+
+Qual √© a sua esta√ß√£o do ano favorita? 
+
+- Primavera
+
+- Outono
+
+- Inverno
+
+- Ver√£o 
+```
