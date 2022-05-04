@@ -7,7 +7,7 @@ Conteúdo prático realizado em sala durante o projeto Entra21.
 
 | AULA | ASSUNTO |
 |------|---------|
-|Aula 02 - 01|[Variáveis](./Aula%2002%20-%2001%20-%20Variaveis/)
+|Aula 02 - 01|[Variáveis](./Aula%2002%20-%2001%20-%20Variaveis/)                                    
 |Aula 02 - 02|[Constantes](./Aula%2002%20-%2002%20-%20Constantes/)
 |Aula 03 - 01|[Operadores Aritméticos](./Aula%2003%20-%2001%20-%20Operadores%20Aritméticos/)
 |Aula 03 - 02|[Incremento e Decremento](./Aula%2003%20-%2002%20-%20Incremente%20e%20Decremento/)
@@ -18,3 +18,4 @@ Conteúdo prático realizado em sala durante o projeto Entra21.
 |Aula 05 - 02|[IF_ELSE](./Aula%2005%20-%2002%20-%20IF_ELSE/)
 |Aula 05 - 03|[Operador Ternário_src](./Aula%2005%20-%2003%20-%20Operador%20Ternário_src/)
 |Aula 05 - 04|[ELSE_IF](./Aula%2005%20-%2004%20-%20ELSE_IF/)
+|Aula 06 - 01|[Switch](./Aula%2006%20-%2001%20-%20Switch/)
