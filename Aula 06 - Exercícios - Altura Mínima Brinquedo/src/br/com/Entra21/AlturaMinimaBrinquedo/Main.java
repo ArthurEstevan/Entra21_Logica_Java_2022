@@ -36,10 +36,5 @@ public class Main {
 		} else {
 			System.out.println(nome+ " você felizmente não pode se divertir hoje, tente daqui alguns anos, desculpa amiguinho.");
 		}
-		
-		
-		
-
 	}
-
 }
