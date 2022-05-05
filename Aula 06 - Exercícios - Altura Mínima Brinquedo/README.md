@@ -1,13 +1,13 @@
-# _ExercÌcio - altura mÌnima brinquedo_
+# _Exerc√≠cio - altura m√≠nima brinquedo_
 
 ```
-Defina como constante a altura minima permitida para entrar em um brinquedo (AtenÁ„o a nomenclatura e utilize a constante no IF)
+Defina como constante a altura minima permitida para entrar em um brinquedo (Aten√ß√£o a nomenclatura e utilize a constante no IF)
 
--Capture nome e altura do usu·rio;
+- Capture nome e altura do usu√°rio;
 
--Validar se a altura informada È MENOR que a permitida;
+- Validar se a altura informada √© MENOR que a permitida;
 
--Caso seja MENOR informar de forma educada mencionando o nome do usu·rio e sua altura qual o par‚metro; minimo para entrar no brinquedo
+- Caso seja MENOR informar de forma educada mencionando o nome do usu√°rio e sua altura qual o par√¢metro; minimo para entrar no brinquedo
 
--Caso n„o seja MENOR informar que a entrada est· liberada.
+- Caso n√£o seja MENOR informar que a entrada est√° liberada.
 ```
