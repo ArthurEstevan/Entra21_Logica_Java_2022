@@ -7,7 +7,7 @@ Defina como constante a altura minima permitida para entrar em um brinquedo (Ate
 
 - Validar se a altura informada é MENOR que a permitida;
 
-- Caso seja MENOR informar de forma educada mencionando o nome do usuário e sua altura qual o parâmetro; minimo para entrar no brinquedo
+- Caso seja MENOR informar de forma educada mencionando o nome do usuário e sua altura;
 
 - Caso não seja MENOR informar que a entrada está liberada.
 ```
