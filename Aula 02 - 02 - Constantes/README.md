@@ -26,4 +26,4 @@ final int municipios = 5568;
 final long habitantes1990 = 146825475;
 final char letra = 'R';
 final float altura = 1.82f;
-finaldouble peso = 75.5;
+final double peso = 75.5;
