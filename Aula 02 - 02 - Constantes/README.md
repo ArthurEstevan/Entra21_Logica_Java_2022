@@ -27,3 +27,5 @@ final long habitantes1990 = 146825475;
 final char letra = 'R';
 final float altura = 1.82f;
 final double peso = 75.5;
+```
+[VEJA FUNCIONANDO](https://replit.com/@ArthurEstevan/Constantes#Main.java).
