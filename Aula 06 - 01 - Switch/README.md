@@ -15,21 +15,20 @@
 
 		byte opcao;
 
-		System.out.println("Escolha a opção três");
-		System.out.println("Ou escolha outra opção...");
+		System.out.println("Escolha um Opção");
 		opcao = inPut.nextByte();
 
 		System.out.println();
 
 		switch (opcao) {
 		case 1:
-			System.out.println("Vamos para o Intervalo");
+			System.out.println("Vamos para o Intervalo.");
 			break;
 		case 2:
-			System.out.println("Daqui apouco tem exercício");
+			System.out.println("Daqui apouco tem exercício.");
 			break;
 		case 3:
-			System.out.println("Era dia cinco mais podemos fazer hoje");
+			System.out.println("Vamos fazer prova.");
 			break;
 		}
 ```
