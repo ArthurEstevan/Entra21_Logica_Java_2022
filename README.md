@@ -20,4 +20,4 @@ Conteúdo prático realizado em sala durante o projeto Entra21.
 |Aula 05 - 04|[ELSE_IF](./Aula%2005%20-%2004%20-%20ELSE_IF/)
 |Aula 06 - 01|[Switch](./Aula%2006%20-%2001%20-%20Switch/)
 |Aula 07 - 01|[Funções](./Aula%2007%20-%2001%20-%20Funções/)
-|Aula 09 - 01|[Funções](./Aula%2009%20-%2001%20-%20FOR/)
+|Aula 09 - 01|[For](./Aula%2009%20-%2001%20-%20FOR/)
