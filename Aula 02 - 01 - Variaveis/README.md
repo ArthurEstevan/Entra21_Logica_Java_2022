@@ -1,25 +1,25 @@
-## _V·riaveis / Propriedades / Capacidades_ 
+## _V√°riaveis / Propriedades / Capacidades_ 
 
-- **Byte** n˙meros inteiros (-128 a +127).
+- **Byte** n√∫meros inteiros (-128 a +127).
 
-- **Short** n˙meros inteiros (-32768 a +32767).
+- **Short** n√∫meros inteiros (-32768 a +32767).
 
-- **Int** n˙meros inteiros (-2147483648 a + 2147483647).
+- **Int** n√∫meros inteiros (-2147483648 a + 2147483647).
 
-- **Long** n˙meros inteiros (-922337203685477808 a 922337203685477807).
+- **Long** n√∫meros inteiros (-922337203685477808 a 922337203685477807).
 
-- **Char** caracteres (Apenas um caractere nessas caracterÌsticas).
+- **Char** caracteres (Apenas um caractere nessas caracter√≠sticas).
 
-- **Float** n˙mero decimais (3.40282347E+38).
+- **Float** n√∫mero decimais (3.40282347E+38).
 
-- **Double** n˙mero decimais (1.79769313486231570W+308).
+- **Double** n√∫mero decimais (1.79769313486231570W+308).
 
 - **Boolean** possuem valores True e false.
 
 ### _Recursos_
-> A preocupaÁ„o com economia de recursos deve ser aplicada atÈ na criaÁ„o correta das vari·veis.
+> A preocupa√ß√£o com economia de recursos deve ser aplicada at√© na cria√ß√£o correta das vari√°veis.
 
-#### Como escrever o cÛdigo:
+#### Como escrever o c√≥digo:
 
 ```
 byte idade = 30;
@@ -32,4 +32,4 @@ double peso = 75.5;
 boolean intervaloAntesdasoito = false;
 boolean intervaloAgora = true;
 ```
-[VEJA FUNCIONANDO](https://replit.com/@ArthurEstevan/Variaveis#Main.java).
+<a href="https://replit.com/@ArthurEstevan/Variaveis#Main.java" target="_blank">VEJA FUNCIONANDO</a>
