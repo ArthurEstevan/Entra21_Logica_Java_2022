@@ -19,4 +19,5 @@ Conteúdo prático realizado em sala durante o projeto Entra21.
 |Aula 05 - 03|[Operador Ternário_src](./Aula%2005%20-%2003%20-%20Operador%20Ternário_src/)
 |Aula 05 - 04|[ELSE_IF](./Aula%2005%20-%2004%20-%20ELSE_IF/)
 |Aula 06 - 01|[Switch](./Aula%2006%20-%2001%20-%20Switch/)
-|Aula 06 - 01|[Funções](./Aula%2007%20-%2001%20-%20Funções/)
+|Aula 07 - 01|[Funções](./Aula%2007%20-%2001%20-%20Funções/)
+|Aula 09 - 01|[Funções](./Aula%2009%20-%2001%20-%20FOR/)
