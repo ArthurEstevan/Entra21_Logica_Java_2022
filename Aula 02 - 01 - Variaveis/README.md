@@ -32,4 +32,4 @@ double peso = 75.5;
 boolean intervaloAntesdasoito = false;
 boolean intervaloAgora = true;
 ```
-<a href="https://replit.com/@ArthurEstevan/Variaveis#Main.java" target="_blank">VEJA FUNCIONANDO</a>
+[VEJA FUNCIONANDO](https://replit.com/@ArthurEstevan/Variaveis#Main.java).
