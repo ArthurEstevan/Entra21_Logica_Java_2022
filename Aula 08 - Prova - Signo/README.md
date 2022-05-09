@@ -18,4 +18,4 @@
 >
 > - Com base no mês informe o signo.
 
-![Fluoxograma](https://github.com/ArthurEstevan/Images/blob/main/Fluxograma%20Prova%20Signo.jpg)
+![Fluoxograma](https://github.com/ArthurEstevan/Images/blob/main/Fluxograma%20Prova%20Signo.png)
