@@ -18,4 +18,6 @@
 >
 > - Com base no mês informe o signo.
 
+[VEJA FUNCIONANDO](https://replit.com/@ArthurEstevan/Entra21LogicaJava2022#Aula%2008%20-%20Prova%20-%20Signo/src/br/com/Entra21/Signo/Main.java).
+
 ![Fluoxograma](https://github.com/ArthurEstevan/Images/blob/main/Fluxograma%20Prova%20Signo.png)
