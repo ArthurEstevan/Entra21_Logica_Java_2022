@@ -2,173 +2,134 @@ package br.com.Entra21.calculadora;
 
 import java.util.Scanner;
 
-public class Main {
+class Main {
+  public static void main(String[] args) {
+    System.out.println();
+    System.out.println("Hello!");
+    System.out.println();
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Crie um programa que faça vários cálculos");
-		System.out.println();
-		System.out.println("- Informe qual operação matemática deseja realizar");
-		System.out.println("- caso informe 0 deve encerrar o programa");
-		System.out.println("1 = somar\r\n" + "2 = subtrair\r\n" + "3 = multiplicar\r\n" + "4 = dividir");
-		System.out.println("Capturar os 2 valores e informar o resultado, esperar o próximo calculo.");
-		System.out.println();
+    // Crie um programa que faça vários cálculos
+    // Informe qual operação matemática deseja realizar
+    // caso informe 0 deve encerrar o programa
+    // 1 = somar
+    // 2 = subtrair
+    // 3 = multiplicar
+    // 4 = dividir
+    // Capturar os 2 valores e informar o resultado e esperar o próximo calculo
 
-		Scanner inPut = new Scanner(System.in);
+    startSystem();
+  }
 
-		String opcao;
+  public static void startSystem() {
 
-		System.out.println("----------------------------------------------------");
-		System.out.println("-                   Informe Ação                   -");
-		System.out.println("----------------------------------------------------");
+    Scanner inPut = new Scanner(System.in); //captura do teclado
+    String operacoes;                       //váriavel para captura da operação
+    float numeroA, numeroB;                 //váriavel para captura dos números
 
-		System.out.println("1 - adição");
-		System.out.println("2 - subtração");
-		System.out.println("3 - multiplicação");
-		System.out.println("4 - divisão");
-		opcao = inPut.next();
-		System.out.println();
+    System.out.println("Which operation do you want to perform?");    //perguta de qual cálculo quer fazer
+    System.out.println("================================");
+    System.out.println("| 01 - Soma                    |");
+    System.out.println("| 02 - Subtração               |");
+    System.out.println("| 03 - Multiplicação           |");
+    System.out.println("| 04 - Divisão                 |");
+    System.out.println("| 0 -  Encerrar                |");
+    System.out.println("================================");
+    operacoes = inPut.next();                                       //captura da respota do usuário
+    System.out.println("número: ");                                 //pergutando o primeiro número
+    numeroA = inPut.nextFloat();                                    //captura da respota do usuário
+    System.out.println("número: ");                                 //pergutando o segundo número
+    numeroB = inPut.nextFloat();                                    //captura da respota do usuário
+                                                                    //toLowerCase() transforma a resposta do usuário em minúscula
+    switch (operacoes.toLowerCase()) {                              //criação do switch para resolução do cálculo
 
-		switch (opcao.toLowerCase()) {
+      case "1", "soma":
+        //faz operação de soma
+        soma(numeroA, numeroB);                                     //função do tipo parâmetro que executa o conjunto de linhas no escopo
+      case "2", "subtração":
+        //faz operação de subtração
+        subtracao(numeroA, numeroB);                                //função do tipo parâmetro que executa o conjunto de linhas no escopo
+        break;
+      case "3", "multiplicação":
+        //faz operação de multiplicação
+        multiplicao(numeroA, numeroB);                              //função do tipo parâmetro que executa o conjunto de linhas no escopo
+        break;
+      case "4", "divisão":
+        //faz operação de divisão
+        divisao(numeroA, numeroB);                                  //função do tipo parâmetro que executa o conjunto de linhas no escopo
+        break;
+      case "0", "encerrar":
+        //ecerra o programa
+        System.exit(1);                                             //faz o encerramento do programa
+        break;
+    }
+  }
 
-		case "1":
-		case "adição":
-			float soma = soma(0, 0);
-			System.out.println("seu resultado é: " + soma);
-			menu();
-			break;
+  //------------------FAZENDO A SOMA DAS VÁRIVAEIS--------------------//
+  public static void soma(float numeroA, float numeroB) { 
 
-		case "2":
-		case "subtração":
-			float menos = menos(0, 0);
-			System.out.println("seu resultado é: " + menos);
-			menu();
-			break;
+    float resultado = numeroA + numeroB;                           //soma das variaveis passada atráves da função parâmetro
 
-		case "3":
-		case "multicplicação":
-			float vezes = vezes(0, 0);
-			System.out.println("seu resultado é: " + vezes);
-			menu();
-			break;
+    System.out.println(numeroA + " + " + numeroB + " = " + resultado); //mostrando o resultado
 
-		case "4":
-		case "divisão":
-			float divisao = div(0, 0);
-			System.out.println("seu resultado é: " + divisao);
-			menu();
-			break;
+    operacao();
+  }
 
-		}
 
-	}
+  //------------------FAZENDO A SUBTRAÇÃO DAS VÁRIVAEIS--------------------//
+  public static void subtracao(float numeroA, float numeroB) {    //subtração das variaveis passada atráves da função parâmetro
 
-	public static float soma(float numeroA, float numeroB) {
-		Scanner inPut = new Scanner(System.in);
-		System.out.println("NumeroA: ");
-		numeroA = inPut.nextFloat();
-		System.out.println();
-		System.out.println("NumeroB: ");
-		numeroB = inPut.nextFloat();
-		System.out.println();
+    float resultado = numeroA - numeroB;
 
-		if ((numeroA == 0) && (numeroB == 0)) {
-			System.out.println("ERROR");
-			System.exit(1);
-		}
-		return numeroA + numeroB;
-	}
+    System.out.println(numeroA + " - " + numeroB + " = " + resultado);  //mostrando o resultado
 
-	public static float menos(float numeroA, float numeroB) {
-		Scanner inPut = new Scanner(System.in);
-		System.out.println("NumeroA: ");
-		numeroA = inPut.nextFloat();
-		System.out.println();
-		System.out.println("NumeroB: ");
-		numeroB = inPut.nextFloat();
-		System.out.println();
+    operacao();
+  }
+  
 
-		if ((numeroA == 0) && (numeroB == 0)) {
-			System.out.println("ERROR");
-			System.exit(1);
-		}
-		return numeroA - numeroB;
-	}
+  //------------------FAZENDO A MULTIPLICAÇÃO DAS VÁRIVAEIS--------------------//
+  public static void multiplicao(float numeroA, float numeroB) {    
 
-	public static float vezes(float numeroA, float numeroB) {
-		Scanner inPut = new Scanner(System.in);
-		System.out.println("NumeroA: ");
-		numeroA = inPut.nextFloat();
-		System.out.println();
-		System.out.println("NumeroB: ");
-		numeroB = inPut.nextFloat();
-		System.out.println();
+    float resultado = numeroA * numeroB;                           //subtração das variaveis passada atráves da função parâmetro          
 
-		if ((numeroA == 0) && (numeroB == 0)) {
-			System.out.println("ERROR");
-			System.exit(1);
-		}
-		return numeroA * numeroB;
-	}
+    System.out.println(numeroA + " x " + numeroB + " = " + resultado); //mostrando o resultado
 
-	public static float div(float numeroA, float numeroB) {
-		Scanner inPut = new Scanner(System.in);
-		System.out.println("NumeroA: ");
-		numeroA = inPut.nextFloat();
-		System.out.println();
-		System.out.println("NumeroB: ");
-		numeroB = inPut.nextFloat();
-		System.out.println();
+    operacao();
+  }
 
-		if ((numeroA == 0) && (numeroB == 0)) {
-			System.out.println("ERROR");
-			System.exit(1);
-		}
-		return numeroA / numeroB;
-	}
 
-	public static void menu() {
-		Scanner inPut = new Scanner(System.in);
-		String opcao;
+  //------------------FAZENDO A DIVISÃO DAS VÁRIVAEIS--------------------//
+  public static void divisao(float numeroA, float numeroB) {
 
-		System.out.println("----------------------------------------------------");
-		System.out.println("-                   Informe Ação                   -");
-		System.out.println("----------------------------------------------------");
+    float resultado = numeroA / numeroB;                           //soma das variaveis passada atráves da função parâmetro
 
-		System.out.println("1 - adição");
-		System.out.println("2 - subtração");
-		System.out.println("3 - multiplicação");
-		System.out.println("4 - divisão");
-		opcao = inPut.next();
-		System.out.println();
+    System.out.println(numeroA + " / " + numeroB + " = " + resultado); //mostrando o resultado
 
-		switch (opcao.toLowerCase()) {
+    operacao();
+  }
 
-		case "1":
-		case "adição":
-			float soma = soma(0, 0);
-			System.out.println("seu resultado é: " + soma);
-			break;
 
-		case "2":
-		case "subtração":
-			float menos = menos(0, 0);
-			System.out.println("seu resultado é: " + menos);
-			break;
+  //------------------FAZENDO RECURSIVIDADE PARA IMPLMENTAR LOOP--------------------//
+  public static void operacao() {
 
-		case "3":
-		case "multicplicação":
-			float vezes = vezes(0, 0);
-			System.out.println("seu resultado é: " + vezes);
-			break;
+    Scanner inPut = new Scanner(System.in);
+    byte operacao;
+    
+    System.out.println();
+    System.out.println("do you want to try again?");
+    System.out.println("================================");
+    System.out.println("| 01 - Yes                     |");
+    System.out.println("| 02 - No                      |");
+    System.out.println("================================");
+    operacao = inPut.nextByte();
 
-		case "4":
-		case "divisão":
-			float divisao = div(0, 0);
-			System.out.println("seu resultado é: " + divisao);
-			break;
+    if (operacao == 1) {
+      startSystem();
+    } else if (operacao == 2) {
+      System.exit(1);
+    } else {
+      System.out.println("Answer incorret, try again");
+      operacao();
+    }
+  }
 
-		}
-	
-	}
 }

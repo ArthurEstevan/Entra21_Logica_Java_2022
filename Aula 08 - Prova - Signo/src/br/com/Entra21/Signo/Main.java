@@ -17,7 +17,7 @@ public class Main {
 		// Senão:
 		// escolher o mês correspondente para fazer as validações especificas;
 		// nesse mês existe esse dia?
-		// com base no dia do mês qual é o signo;
+		// com base no dia do mês qual o signo;
 		// mês invalido.
 
 		startSystem();//Iniciar a funcao para capturar os dados do usuario. (Conceito de recursividade para implementar loops)
@@ -35,9 +35,10 @@ public class Main {
 
 		Scanner inPut = new Scanner(System.in);											//Atribuindo a Class Scanner a variavel input
 
-		String firstNameUser, lastNameUser;												//Definindo a variavel que vai receber o nome do usuário
-
-		System.out.println("Hello!\nWhat is your first name?");							//Perguntando o primeiro nome do usuario.
+		String firstNameUser, lastNameUser;												//definindo a variavel que vai receber o nome do usuário
+    
+    System.out.println();
+		System.out.println("Hello!\n\nWhat is your first name?");							//Perguntando o primeiro nome do usuario.
 		firstNameUser = inPut.next();													//Capturando o primeiro nome usuario
 
 		System.out.println("And what is your last name?");								//Perguntando o sobrenome do usuario.
@@ -67,70 +68,70 @@ public class Main {
 		System.out.println();
 		System.out.println("\tSELECT YOUR BIRTHDAY MONTH TOO");
 		System.out.println("================================================");
-		System.out.println("| 01 - Janeiro   | 05 - Maio   | 09 - Setembro |");
-		System.out.println("| 02 - Fevereiro | 06 - Junho  | 10 - Outubro  |");
-		System.out.println("| 03 - Março     | 07 - Julho  | 11 - Novembro |");
-		System.out.println("| 04 - Abril     | 08 - Agosto | 12 - Dezembro |");
+		System.out.println("| 01 - January   | 05 - May    | 09 - September|");
+		System.out.println("| 02 - February  | 06 - June   | 10 - October  |");
+		System.out.println("| 03 - March     | 07 - July   | 11 - November |");
+		System.out.println("| 04 - April     | 08 - August | 12 - December |");
 		System.out.println("================================================");
 		monthBirthday = inPut.next();											//Perguntando o mes em que ele nasceu.
 
 		switch (monthBirthday.toLowerCase()) {
-		case "1", "janeiro":
+		case "1", "january":
 			//trazer a verificacao do mes janeiro
 			validationThirtyOne(dayBirthday, fullNameUser, 1); 					//funcao do tipo void que recebe o numero de dias maximos daquele mes, nome do usuário e o número do mês
 			break;
 
-		case "2", "fevereiro":
+		case "2", "february":
 			//trazer a verificacao do mes fevereiro
 			validationTwentyEight(dayBirthday, fullNameUser, 2);
 			break;
 
-		case "3", "março":
+		case "3", "march":
 			//trazer a verificacao do mes março
 			validationThirtyOne(dayBirthday, fullNameUser, 3);
 			break;
 
-		case "4", "abril":
+		case "4", "april":
 			//trazer a verificacao do mes abril
 			validationThirty(dayBirthday, fullNameUser, 4);
 			break;
 
-		case "5", "maio":
+		case "5", "may":
 			//trazer a verificacao do mes maio
 			validationThirtyOne(dayBirthday, fullNameUser, 5);
 			break;
 
-		case "6", "junho":
+		case "6", "june":
 			//trazer a verificacao do mes junho
 			validationThirty(dayBirthday, fullNameUser, 6);
 			break;
 
-		case "7", "julho":
+		case "7", "july":
 			//trazer a verificacao do mes julho
 			validationThirtyOne(dayBirthday, fullNameUser, 7);
 			break;
 
-		case "8", "agosto":
+		case "8", "august":
 			//trazer a verificacao do mes agosto
 			validationThirtyOne(dayBirthday, fullNameUser, 8);
 			break;
 
-		case "9", "setembro":
+		case "9", "september":
 			//trazer a verificacao do mes setembro
 			validationThirty(dayBirthday, fullNameUser, 9);
 			break;
 
-		case "10", "outubro":
+		case "10", "october":
 			//trazer a verificacao do mes outubro
 			validationThirtyOne(dayBirthday, fullNameUser, 10);
 			break;
 
-		case "11", "novembro":
+		case "11", "november":
 			//trazer a verificacao do mes novembro
 			validationThirty(dayBirthday, fullNameUser, 11);
 			break;
 
-		case "12", "dezembro":
+		case "12", "december":
 			//trazer a verificacao do mes dezembro
 			validationThirtyOne(dayBirthday, fullNameUser, 12);
 			break;
@@ -144,7 +145,7 @@ public class Main {
 	}
 
 	//----------- VALIDAÇÃO PARA MESES COM 30 DIAS --------------//
-	public static void validationThirty(byte dayBirthday, String nameUser, int monthBirthday) {				//Função que recebe o dia do aniversario, mês do aniversáro e nome do usuario
+	public static void validationThirty(byte dayBirthday, String nameUser, int monthBirthday) {				//Função que recebe o dia do aniversario, mês do aniversário e nome do usuario
 
 		final byte DAYLIMIT = 30;
 
@@ -158,7 +159,7 @@ public class Main {
 
 	//----------- VALIDAÇÃO PARA MESES COM 28 DIAS --------------//
 	public static void validationTwentyEight(byte dayBirthday, String nameUser, int monthBirthday) {
-		//Função que recebe o dia do aniversario, mês do aniversáro e nome do usuario
+		//Função que recebe o dia do aniversario, mês do aniversáro e nome do usuário
 
 		final byte DAYLIMIT = 28;
 
@@ -171,7 +172,7 @@ public class Main {
 	}
 
 	//----------- VALIDAÇÃO PARA MESES COM 31 DIAS --------------//
-	public static void validationThirtyOne(byte dayBirthday, String nameUser, int monthBirthday) {			//Função que recebe o dia do aniversario, mês do aniversáro e nome do usuario
+	public static void validationThirtyOne(byte dayBirthday, String nameUser, int monthBirthday) {			//Função que recebe o dia do aniversario, mês do aniversário e nome do usuario
 
 		final byte DAYLIMIT = 31;
 
@@ -187,31 +188,31 @@ public class Main {
 	private static void verifyZodiacSign(byte dayBirthday, String nameUser, int monthBirthday) {			
 
 		if (monthBirthday == 3 && dayBirthday >= 21 || monthBirthday == 4 && dayBirthday <= 20) {
-			System.out.println(nameUser + " seu signo ÁRIES");
+			System.out.println(nameUser + " your Zodiac Sign is Aries");
 		} else if (monthBirthday == 4 && dayBirthday >= 21 || monthBirthday == 5 && dayBirthday <= 20) {
-			System.out.println(nameUser + " seu signo TOURO");
+			System.out.println(nameUser + " your Zodiac Sign is Taurus");
 		} else if (monthBirthday == 5 && dayBirthday >= 21 || monthBirthday == 6 && dayBirthday <= 20) {
-			System.out.println(nameUser + " seu signo GÊMEOS");
+			System.out.println(nameUser + " your Zodiac Sign is Gemini");
 		} else if (monthBirthday == 6 && dayBirthday >= 21 || monthBirthday == 7 && dayBirthday <= 21) {
-			System.out.println(nameUser + " seu signo CÂNCER");
+			System.out.println(nameUser + " your Zodiac Sign is Cancer");
 		} else if (monthBirthday == 7 && dayBirthday >= 22 || monthBirthday == 8 && dayBirthday <= 22) {
-			System.out.println(nameUser + " seu signo LEÃO");
+			System.out.println(nameUser + " your Zodiac Sign is Leo");
 		} else if (monthBirthday == 8 && dayBirthday >= 23 || monthBirthday == 9 && dayBirthday <= 22) {
-			System.out.println(nameUser + " seu signo VIRGEM");
+			System.out.println(nameUser + " your Zodiac Sign is Virgo");
 		} else if (monthBirthday == 9 && dayBirthday >= 23 || monthBirthday == 10 && dayBirthday <= 22) {
-			System.out.println(nameUser + " seu signo LIBRA");
+			System.out.println(nameUser + " your Zodiac Sign is Libra");
 		} else if (monthBirthday == 10 && dayBirthday >= 23 || monthBirthday == 11 && dayBirthday <= 21) {
-			System.out.println(nameUser + " seu signo ESCORPIÃO");
+			System.out.println(nameUser + " your Zodiac Sign is Scorpio");
 		} else if (monthBirthday == 11 && dayBirthday >= 22 || monthBirthday == 12 && dayBirthday <= 21) {
-			System.out.println(nameUser + " seu signo SAGITÁRIO");
+			System.out.println(nameUser + " your Zodiac Sign is Sagittarius");
 		} else if (monthBirthday == 12 && dayBirthday >= 22 || monthBirthday == 1 && dayBirthday <= 20) {
-			System.out.println(nameUser + " seu signo CAPRICÓRNIO");
+			System.out.println(nameUser + " your Zodiac Sign is Capricorn");
 		} else if (monthBirthday == 1 && dayBirthday >= 21 || monthBirthday == 2 && dayBirthday <= 19) {
-			System.out.println(nameUser + " seu signo AQUÁRIO");
+			System.out.println(nameUser + " your Zodiac Sign is Aquarius");
 		} else if (monthBirthday == 2 && dayBirthday >= 20 || monthBirthday == 3 && dayBirthday <= 20) {
-			System.out.println(nameUser + " seu signo PEIXES");
+			System.out.println(nameUser + " your Zodiac Sign is Pisces");
 		} else {
-			System.out.println(nameUser + " -VOCÊ É UM SEMI DEUS DA PROGRAMAÇÃO-");
+			System.out.println(nameUser + " -YOU IS A GOD-");
 		}
 	}
 
