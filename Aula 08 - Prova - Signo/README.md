@@ -18,6 +18,6 @@
 >
 > - Com base no mês informe o signo.
 
-[VEJA FUNCIONANDO](https://replit.com/@ArthurEstevan/Programa-de-Signos#Main.java).
+[VEJA FUNCIONANDO](https://replit.com/@ArthurEstevan/Zodiac-Sign-Program?v=1).
 
 ![Fluoxograma](https://github.com/ArthurEstevan/Images/blob/main/Fluxograma%20Prova%20Signo.png)
