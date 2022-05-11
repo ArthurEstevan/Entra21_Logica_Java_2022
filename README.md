@@ -6,7 +6,7 @@ Conteúdo prático realizado em sala durante o projeto Entra21.
 
 ## Aula Ministradas
 
-<a href="#"><img align="right" src="http://clubedosgeeks.com.br/wp-content/uploads/2016/01/dormrm.gif" width="600 " height="300" /></a>
+<a href="#"><img align="right" src="http://clubedosgeeks.com.br/wp-content/uploads/2016/01/dormrm.gif" width="400 " height="300" /></a>
 
 | AULA | ASSUNTO |
 |------|---------|
