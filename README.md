@@ -1,12 +1,18 @@
-# Entra21_Logica_Java_2022
+# Entra21 Lógica de programação com Java
 
-Conteúdo prático realizado em sala durante o projeto Entra21.
+## Repositório com as práticas realizadas em aula  
+
+> Conteúdo prático realizado em sala durante o projeto Entra21
+> Em aditivo oportunidades de aprendizado em:
+> - Versionamento
+> - Linguagem markdown
+> - Documentação
 
 ![Gif Entra21](https://raw.githubusercontent.com/seiler-emerson/Entra21_Logica_Java_2022/main/gif/entra21.gif)
 
 ## Aula Ministradas
 
-<a href="#"><img align="right" src="http://clubedosgeeks.com.br/wp-content/uploads/2016/01/dormrm.gif" width="400 " height="300" /></a>
+<a href="#"><img  src="/giphy.gif" width="500 " height="350" /></a>
 
 | AULA | ASSUNTO |
 |------|---------|
