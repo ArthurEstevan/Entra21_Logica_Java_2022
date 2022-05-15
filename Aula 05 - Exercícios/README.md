@@ -1,4 +1,4 @@
-# _Exercício - IF_
+# _Exercícios - IF_
 
 > Capturar 2 números e informar qual é o maior.
 > 
