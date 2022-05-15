@@ -25,5 +25,4 @@ Conteúdo prático realizado em sala durante o projeto Entra21.
 |Aula 07 - 01|[Funções](./Aula%2007%20-%2001%20-%20Funções/)
 |Aula 09 - 01|[For](./Aula%2009%20-%2001%20-%20FOR/)
 |Aula 10 - 01|[While / Do-While](./Aula%2010%20-%2001%20-%20Estrutura%20While/)
-
-
+|Aula 12 - 01|[Vetores](./Aula%2012%20-%2001%20-%20Estrutura%20Vetores/)
