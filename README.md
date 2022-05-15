@@ -12,7 +12,7 @@
 
 ## Aula Ministradas
 
-<a href="#"><img  src="/giphy.gif" width="500 " height="350" /></a>
+<a href="#"><img  src="https://media1.giphy.com/media/lTEmlS1yrVhMQ/giphy.gif?cid=ecf05e47t9itnd3eiiedsuxc6affe52qx6zc9kg4ndymd6n8&rid=giphy.gif&ct=g" width="500 " height="350" /></a>
 
 | AULA | ASSUNTO |
 |------|---------|
