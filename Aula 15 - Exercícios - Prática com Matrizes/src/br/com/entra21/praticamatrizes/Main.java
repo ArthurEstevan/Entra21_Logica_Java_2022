@@ -55,7 +55,7 @@ public class Main {
 
 			case 6:
 				// calling my function
-
+				userAttributeValueMatriz();
 				break;
 
 			default:
@@ -130,29 +130,19 @@ public class Main {
 //		Verificar os detalhes na perspectiva DEBUG
 
 		char matrizChars[][] = { // quem define o tamanho de cada vetor é a incialização, que pode ser irregular.
-				{ 'A', 'E', 'V' }, { 'R', 'D', 'O' }, { 'F', 'F', 'C', 'A' }, // irregular porque tem tamanhos diferente
-																				// de index
+				{ 'A', 'E', 'V' }, { 'R', 'D', 'O' }, { 'F', 'F', 'C', 'A' }, // irregular porque tem tamanhos diferente de index
 		};
 
 		boolean matrizBooleans[][] = { // quem define o tamanho de cada vetor é a incialização, que pode ser irregular.
-				{ true, false, true, false }, { true, false, true, false }, { true, false, true, false }, // regular
-																											// porque
-																											// todos a
-																											// mesma
-																											// capacidade
-																											// de itens
-																											// por
-																											// vetores
+				{ true, false, true, false }, { true, false, true, false }, { true, false, true, false }, // regular porque todos a mesma capacidade de itens por vetores
 		};
 
 		byte matrizBytes[][] = { // quem define o tamanho de cada vetor é a incialização, que pode ser irregular.
-				{ 10, 20, 30, 44, 50 }, { 11, 22, 33 }, { 13, 24 }, { 18 }, // irregular porque tem tamanhos diferente
-																			// de index
+				{ 10, 20, 30, 44, 50 }, { 11, 22, 33 }, { 13, 24 }, { 18 }, // irregular porque tem tamanhos diferente de index
 		};
 
 		short matrizShorts[][] = { // quem define o tamanho de cada vetor é a incialização, que pode ser irregular.
-				{ 300, 400, 1000 }, { 500, 600, 100 }, { 1000, 4000, 5000 }, // regular porque todos a mesma capacidade
-																				// de itens por vetores
+				{ 300, 400, 1000 }, { 500, 600, 100 }, { 1000, 4000, 5000 }, // regular porque todos a mesma capacidade de itens por vetores
 		};
 
 		int matrizInts[][] = { // quem define o tamanho de cada vetor é a incialização, que pode ser irregular.
@@ -160,9 +150,7 @@ public class Main {
 		};
 
 		long matrizLongs[][] = { // quem define o tamanho de cada vetor é a incialização, que pode ser irregular.
-				{ 300, 400, 500, 600 }, { 10000000, 5000000, 300 }, { 1000000, 100000 }, // irregular porque tem
-																							// tamanhos diferente de
-																							// index
+				{ 300, 400, 500, 600 }, { 10000000, 5000000, 300 }, { 1000000, 100000 }, // irregular porque tem tamanhos diferente de index
 		};
 
 		float matrizFloats[][] = { // quem define o tamanho de cada vetor é a incialização, que pode ser irregular.
@@ -170,8 +158,7 @@ public class Main {
 		};
 
 		double matrizDoubles[][] = { // quem define o tamanho de cada vetor é a incialização, que pode ser irregular.
-				{ 100, 400, 500 }, { 100, 200, 400 }, { 1000, 4000, 5000, 6000 }, // irregular porque tem tamanhos
-																					// diferente de index
+				{ 100, 400, 500 }, { 100, 200, 400 }, { 1000, 4000, 5000, 6000 }, // irregular porque tem tamanhos diferente de index
 		};
 
 		System.out.println(
@@ -254,18 +241,99 @@ public class Main {
 
 				System.out.println("Para o indice [" + vetor + "] meu tamanho é [" + detail + "] informe o valor");
 				matrizBytes[vetor][detail] = inPut.nextByte();
-			};
-		};
+			}
+			;
+		}
+		;
 
 		for (byte vetor = 0; vetor < matrizBytes.length; vetor++) {
 
 			for (byte detail = 0; detail < matrizBytes[vetor].length; detail++) {
 
-				System.out.println("Para o indice [" + vetor + "] meu tamanho é [" + detail + "] " +matrizBytes[vetor][detail]);
+				System.out.println(
+						"Para o indice [" + vetor + "] meu tamanho é [" + detail + "] " + matrizBytes[vetor][detail]);
 			}
 			;
-		};
+		}
+		;
 
 	}
 
+	public static void matrizDecrescenteCrescente() {
+
+		// Criar uma matriz de inteiros inicializado , para percorrer
+		// Do inicio ao fim
+		// Do fim ao inicio
+		// Para exibir os valore
+
+		byte matrizBytes[][] = { { 10, 20, 30, 40 }, { 50, 60, 70, 80 }, { 90, 100, 110, 120 }, };
+
+		// Inicio ao Fim
+		for (byte vetor = 0; vetor < matrizBytes.length; vetor++) {
+			for (byte index = 0; index < matrizBytes[vetor].length; index++) {
+				System.out.println("Meu vetor [" + vetor + "] e meu index [" + index + "] tem tamanho ==="
+						+ matrizBytes[vetor][index]);
+			}
+		}
+
+		System.out.println();
+
+		// Fim ao Inicio
+		for (byte vetor = (byte) (matrizBytes.length - 1); vetor >= 0; vetor--) {
+			for (byte index = (byte) (matrizBytes[vetor].length - 1); index >= 0; index--) {
+				System.out.println("Meu vetor [" + vetor + "] e meu index [" + index + "] tem tamanho ==="
+						+ matrizBytes[vetor][index]);
+			}
+		}
+
+	}
+
+	public static void userAttributeValueMatriz() {
+
+		// Criar uma matriz de inteiros não inicializado [x]
+		// Repita indefinidamente até que o usuário responda não para a pergunta [x]
+		// Gostaria de inicializar o valor de uma das posições entre 1 e TAMANHO? []
+		// Caso responda sim [x]
+		// Capturar todos os valores para aquele índice [x]
+		// Repetir a captura até o fim da capacidade do índice [x]
+		// Caso responda não [x]
+		// Sair da repetição de inicializações [x]
+		// Exibir todos os valores da matriz [x]
+
+		byte matrizBytes[][] = new byte[5][5];
+		String option;
+		byte vetor = 0, index = 0;
+
+		do {
+
+			System.out.println("Para o vetor [" + vetor + "] informe o valor do index [" + index + "]");
+			matrizBytes[vetor][index] = inPut.nextByte();
+
+			System.out.println("Quer atribuir um novo valor ao vetor?");
+			option = inPut.next();
+			if (option.equalsIgnoreCase("sim")) {
+				System.out.println("Qual posição do vetor você quer?");
+				vetor = inPut.nextByte();
+				System.out.println("Qual posição do index você quer?");
+				index = inPut.nextByte();
+			}
+
+			if (vetor >= 5 || index >= 5) {
+				System.out.println("Choose option correct");
+				System.out.println();
+				main(null);
+			}
+
+		} while (option.equalsIgnoreCase("sim")); // enquanto for reposta != não, continua no looping
+
+		for (byte vetors = 0; vetors < matrizBytes.length; vetors++) {
+
+			for (byte indexs = 0; indexs < matrizBytes[vetors].length; indexs++) {
+
+				System.out.println("No meu vetor [" + vetors + "] o tamanho vai ser [" + indexs + "] ===> "
+						+ matrizBytes[vetors][indexs]);
+			}
+
+		}
+	}
 }
