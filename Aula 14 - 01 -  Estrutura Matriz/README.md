@@ -11,14 +11,12 @@
 > Apenas com vetores seria necessário criar 23 vetores de tamanho 3 para armazenar as notas.
 >
 >> float notas1[]= new float[3]; 
->>
 >> float notas2[]= new float[3];
 >> float notas3[]= new float[3];
 >>
 >> Few moment later...
 >>
->> float notas11[]= new float[3];
->>
+>> float notas121[]= new float[3];
 >> float notas22[]= new float[3];
 >> float notas23[]= new float[3];
 >
@@ -32,9 +30,9 @@
 
 ```
 		System.out.println("Learn Simple Matriz");
-		System.out.println("Armazenar as 3 notas de todos os 10 alunos");
+		System.out.println("Armazenar as 3 notas de todos os 23 alunos");
 
 		float nota[][]; // Olhe no Debug []vetores linhas []index colunas
 
-		nota = new float[10][3];
+		nota = new float[23][3];
 ```
