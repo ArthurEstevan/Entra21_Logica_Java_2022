@@ -1,4 +1,4 @@
-# _Exercícios - Estrutura de Repetição_
+# _Exercícios - Prática de Repetição_
 
 > 1. Escreva um algoritmo que calcule a soma dos números de 1 a 15 e quebre a linha a cada 5 repetições.
 > 
