@@ -12,5 +12,5 @@
 >
 > 6. Criar um vetor de inteiros inicializado , para percorrer do inicio ao fim e do fim ao inicio.
 >
-> 7. Pedir para o usuário definir o valor do vetor e index escolhido, enquanto ele não responder sair fica preso no loop.
+> 7. Pedir para o usuário definir o valor do vetor e index escolhido e enquanto ele não responder sair fica preso no loop.
 >
