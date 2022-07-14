@@ -1,10 +1,12 @@
 # _Entra2️⃣1️⃣ Object Programming Logic with Java_
 
-## _Repository with several subjects in programming logic_
+## _Repository with several subjects in programming logic with Java_
 
 > _Practical content carried out in the classroom during the Entra21 project._
 >
-> - **_OPP - Object Programming Logic_**
+> - **_Versioning - Versioning from GitHub_**
+> - **_Markdown language - Text Formatting_**
+> - **_Documentation - File Documentation_**
 
 ![Gif Entra21](https://raw.githubusercontent.com/seiler-emerson/Entra21_Logica_Java_2022/main/gif/entra21.gif)
 
