@@ -42,7 +42,7 @@ String helloWorld = "Hello World"
 System.out.println(helloWorld);
 ```
 
-## 📚 References 
+## 📚 _References_ 
 
 > Sites where I got the exercises, I will also leave repositories to help you do the exercises.
 
