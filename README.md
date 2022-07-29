@@ -10,7 +10,7 @@
 
 ![Gif Entra21](https://raw.githubusercontent.com/seiler-emerson/Entra21_Logica_Java_2022/main/gif/entra21.gif)
 
-## _Below I will leave a list of subjects_
+## ![](/lista_green.png) _Below I will leave a list of subjects_
 
 | CLASSES | SUBJECTS |
 |------|---------|
